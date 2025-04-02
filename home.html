@@ -6,54 +6,10 @@
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<style>
-body {
-    background-image: url('img.src/myimage.jpg.jpeg'); /* Path to my image */
-    background-size: cover; /* Ensures the image covers the whole screen */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents repeating */
-}
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 9, 8, 0.913); /* Adjust opacity */
-    z-index: -1;
-}
-.image-container {
-    width: 1500px; /* Set the width of the container */
-    height: 300px; /* Set the height of the container */
-    display: flex; /* Center the image inside */
-    justify-content: center;
-    align-items: center;
-    border: 0px solid #043d3b8b; /* Optional border */
-    overflow: hidden; /* Prevents image overflow */
-}
-
-.image-container img {
-    width: 100%; /* Ensures image fits container */
-    height: auto; /* Maintains aspect ratio */
-}
-footer {
-  margin-top: 300px; /* Adjust the value as needed */
- 
-}
-.logo {
-                    width: 120px;  /* Adjust size as needed */
-                    height: auto;  /* Maintain aspect ratio */
-                    margin-left: -700px;
-                    align-items: self-start;
-                }
-
-</style>
-
 <body>
         <header>
             <h1>Priscillah Aketch</h1>
-            <img src="your-logo.png" alt="Logo" class="logo">
+            <img src="img.src/logo.jpg.avif" alt="Logo" style="position: absolute; top: 30px; left: 10px; width: 100px; height: auto;">
             <nav>
                 <ul>
                     <li><a href="home.html">Home</a></li>
@@ -64,24 +20,20 @@ footer {
                 </ul>
             </nav>
         </header>
-
-    <div class="image-container">
-        <img src="img.src/logo.jpg.avif" alt="My logo">
-    </div>
-    
-
-        <!-- <section id="contact">
-            <h2>Contact Me</h2>
-            <form action="submit-form.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section> -->
+        <div style="position: absolute; top: 50%; right: 30px; transform: translateY(-50%); z-index: 999;">
+            <a href="about.html" style="display: inline-block; padding: 5px 20px; border: 1px solid rgb(222, 226, 226); background-color: #0000; color: white; text-decoration: none; font-size: 16px;">
+                Next
+            </a>
+        </div>
+        
+        <div style="position: relative; width: 100%; height: 0; padding-top: 56.2225%;
+        padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(229, 112, 2, 0.18); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+        border-radius: 8px; will-change: transform;">
+         <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+           src="https://www.canva.com/design/DAGjfKmAOrQ/6T5DBobrU-cEWSplLouG_Q/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+         </iframe>
+       </div>
+       <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGjfKmAOrQ&#x2F;6T5DBobrU-cEWSplLouG_Q&#x2F;view?utm_content=DAGjfKmAOrQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
     <footer>
         <p>&copy; 2025 Priscillah. All Rights Reserved.</p>
     </footer>
