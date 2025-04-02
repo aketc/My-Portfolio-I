@@ -1,10 +1,81 @@
-<section id="projects">
-    <h2>Projects</h2>
-    <h3>Project 1</h3>
-    <p>A brief description of your project.</p>
-    <a href="link-to-your-project">View Project</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        text-align: center;
+    }
 
-    <h3>Project 2</h3>
-    <p>A brief description of your project.</p>
-    <a href="link-to-your-project">View Project</a>
-</section>
+    .skills-grid button {
+    background: #033b49; /* Header background color */
+    background-color: #033b49;
+        color: white;
+        border: none;
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .skills-grid button:hover {
+        background-color: #cb5800;
+    }
+</style>
+<body>
+    <header>
+        <h1>Priscillah Aketch</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section id="skills">
+        <h2>My Projects</h2>
+        <div class="skills-grid">
+            <button><li>Websites</li></button>
+            <button><li>Hackathons</li></button>
+            <button><li>Group Projects</li></button>
+           
+        </div>
+    </section>
+    
+
+    <section id="interests">
+        <h2>Interests</h2>
+        <p>I am particularly excited about web development, data science, and machine learning.</p>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+   
+    <footer>
+        <p>&copy; 2025 Priscillah. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

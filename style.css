@@ -112,10 +112,5 @@ form button:hover {
         display: block;
         margin: 10px 0;
     }
-    home.body {
-        background-image: url('img.src/myimage.jpg.jpeg'); /* Path to my image */
-        background-size: cover; /* Ensures the image covers the whole screen */
-        background-position: center; /* Centers the image */
-        background-repeat: no-repeat; /* Prevents repeating */
-    }
+   
 }
