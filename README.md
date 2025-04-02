@@ -4,9 +4,13 @@ Welcome to my portfolio site, where I showcase my work, education, and passion p
 
 Features
 Home: Introduction to who I am.
+
 About: More details on my background and aspirations.
+
 Education: Overview of my academic qualifications.
+
 Projects: A collection of my work, demonstrating my skills.
+
 Feel free to explore and get in touch with me!
 
 Visit my portfolio at; https://aketchpriscillah.netlify.app
